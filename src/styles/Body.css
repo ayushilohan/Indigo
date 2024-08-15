@@ -1,0 +1,39 @@
+.body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 86.7vh;
+}
+  
+.flight-search {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background-color: white;
+   padding: 20px;
+   border-radius: 5px;
+   height: 180px;
+   width: 1200px;
+}
+  
+.input {
+   padding: 10px;
+   margin: 0 10px;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   width: 280px;
+}
+  
+.switch {
+   font-size: 24px;
+}
+  
+.search-button {
+   padding: 10px 20px;
+   background-color: #073590;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   width: 150px;
+}

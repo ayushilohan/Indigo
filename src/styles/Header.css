@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+
+.imageStyle {
+    width: 130px;
+}
+  
+.nav {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    width: 600px;
+}
+  
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+  
+.book-hotel-container {
+    position: relative;
+    display: inline;
+}
+
+.book-hotel {
+    background-color: #f8932f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.discount-badge {
+    position: absolute;
+    top: -20px;
+    left: -15px;
+    background-color: #073590;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 50px 10px;
+    z-index: 2;
+}
